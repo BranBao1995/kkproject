@@ -1,0 +1,27 @@
+.container {
+    
+    display: grid;
+    
+    grid-template-rows: [nav-start] 30vh [nav-end select-start] min-content [select-end gallery-start] min-content [gallery-end footer-start] min-content 
+                        [footer-end];
+    grid-template-columns: [full-start] 100% [full-end]; 
+    
+    padding: 0 3rem;
+    
+    
+}
+
+
+.select {
+    
+    margin: 4rem 0;
+    
+    grid-row: select-start / select-end;
+    grid-column: full-start / full-end;
+    
+    
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    
+}

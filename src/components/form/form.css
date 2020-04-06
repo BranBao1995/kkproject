@@ -1,0 +1,148 @@
+.form {
+    
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    
+    margin: 0 auto;
+    
+    display: block;
+    width: 75%;
+    
+    font-family: 'Old Standard TT', serif;
+    
+}
+
+.formField {
+    
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns: 100%;
+    
+    row-gap: 1rem;
+    
+    font-family: inherit;
+    
+}
+
+.formField .label {
+    
+    margin-right: .8rem;
+    
+}
+
+.formField input {
+    
+    display: block;
+    padding: .3rem;
+    height: 2rem;
+    
+    border: .07rem solid #dedede;
+    /*box-shadow: 2px -2px 2px 1px rgba(0, 0, 0, 0.2);*/
+    
+}
+
+.formField input:focus {
+    
+    outline: none;
+    
+}
+
+.formField .nameInputs {
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.formField .nameInputs .firstName {
+    
+    margin-right: 2rem;
+    width: 50%;
+    
+}
+
+.formField .nameInputs .firstName input {
+    
+    width: 100%;
+    
+}
+
+.formField .nameInputs .lastName {
+    
+    width: 50%;
+    
+}
+
+.formField .nameInputs .lastName input {
+    
+      width: 100%;
+    
+}
+
+.formField .emailInput {
+    
+    display: block;
+    
+}
+
+.formField .emailInput input {
+    
+    width: 100%;
+    
+}
+
+.formField .commentInput {
+    
+    display: block;
+    
+}
+
+.formField .commentInput textarea {
+    
+    display: block;
+    width: 100%;
+    height: 10rem;
+    
+    border: .07rem solid #dedede;
+    
+}
+
+.formField .commentInput textarea:focus {
+    
+    outline: none;
+    
+}
+
+.form .button,
+.form .button:focus,
+.form .button:active {
+    
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 5rem;
+    height: 2rem;
+    padding: .2rem;
+    text-align: center;
+    
+    outline: none;
+    
+    border: .07rem solid #3b3b3b;
+    border-radius: 10px;
+    background-color: transparent;
+    color:  #3b3b3b;
+    
+    font-family: inherit;
+    
+    cursor: pointer;
+    
+    transition: all .1s;
+}
+
+.form .button:hover {
+    
+    background-color: #3b3b3b;
+    color: white;
+    
+}

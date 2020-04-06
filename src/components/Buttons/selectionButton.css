@@ -1,0 +1,36 @@
+.selectionButton {
+    
+    
+    grid-row: 1 / 2;
+    
+    display: flex;
+    padding: 1.5rem 0;
+    
+    
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    
+    color: #3b3b3b;  
+    font-family: 'Old Standard TT', serif;
+    font-size: 2rem;
+    
+    border-top: .1rem solid #3b3b3b;
+    border-bottom: .1rem solid #3b3b3b;
+    
+    cursor: pointer;
+    
+    transition: all .2s;
+    
+}
+
+
+.selectionButton:hover {
+    
+    
+    background-color: #3b3b3b;
+    color: white;
+    
+    
+}
